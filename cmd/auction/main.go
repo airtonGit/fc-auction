@@ -2,9 +2,6 @@ package main
 
 import (
 	"context"
-	"github.com/gin-gonic/gin"
-	"github.com/joho/godotenv"
-	"go.mongodb.org/mongo-driver/mongo"
 	"log"
 
 	"github.com/airtongit/fc-auction/configuration/database/mongodb"
@@ -17,6 +14,9 @@ import (
 	"github.com/airtongit/fc-auction/internal/usecase/auction_usecase"
 	"github.com/airtongit/fc-auction/internal/usecase/bid_usecase"
 	"github.com/airtongit/fc-auction/internal/usecase/user_usecase"
+	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 func main() {

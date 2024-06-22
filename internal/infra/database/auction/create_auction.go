@@ -28,6 +28,10 @@ func NewAuctionRepository(database *mongo.Database) *AuctionRepository {
 	}
 }
 
+func (ar *AuctionRepository) WatchCloseAuction(auction auction_entity.Auction) (stop func()) {
+
+}
+
 func (ar *AuctionRepository) CreateAuction(
 	ctx context.Context,
 	auctionEntity *auction_entity.Auction) *internal_error.InternalError {
