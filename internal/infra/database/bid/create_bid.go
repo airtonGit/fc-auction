@@ -2,15 +2,15 @@ package bid
 
 import (
 	"context"
-	"fullcycle-auction_go/configuration/logger"
-	"fullcycle-auction_go/internal/entity/auction_entity"
-	"fullcycle-auction_go/internal/entity/bid_entity"
-	"fullcycle-auction_go/internal/infra/database/auction"
-	"fullcycle-auction_go/internal/internal_error"
 	"os"
 	"sync"
 	"time"
 
+	"github.com/airtongit/fc-auction/configuration/logger"
+	"github.com/airtongit/fc-auction/internal/entity/auction_entity"
+	"github.com/airtongit/fc-auction/internal/entity/bid_entity"
+	"github.com/airtongit/fc-auction/internal/infra/database/auction"
+	"github.com/airtongit/fc-auction/internal/internal_error"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

@@ -1,4 +1,4 @@
-module fullcycle-auction_go
+module github.com/airtongit/fc-auction
 
 go 1.20
 
